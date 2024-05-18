@@ -18,5 +18,5 @@ Script:
 - Install needing packages.
 - Ready to launch.
 
-## Requirements : 
+## Requirements
 Nodejs-NPM-NPX 

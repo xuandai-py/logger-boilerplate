@@ -31,5 +31,12 @@
   },
   "bin": {
     "logger-boilerplate": "./bin/generate-logger.js"
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "starter",
+    "logger",
+    "winston",
+    "morgan"
+  ]
 }
