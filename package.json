@@ -1,0 +1,35 @@
+{
+  "name": "logger-boilerplate",
+  "version": "1.0.0",
+  "description": "This file is a part of the hercli-logger package. The boiler plate contains winston amd morgan config for better logging in JS app.",
+  "main": "logger.hercli.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js",
+    "prettify": "npx prettier --write ./bin/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuandai-py/logger-boilerplate.git"
+  },
+  "author": "xuandai-py",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuandai-py/logger-boilerplate/issues"
+  },
+  "homepage": "https://github.com/xuandai-py/logger-boilerplate#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "bin": {
+    "logger-boilerplate": "./bin/generate-logger.js"
+  }
+}
