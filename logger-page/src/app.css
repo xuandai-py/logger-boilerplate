@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #08182F;
+  background-color: #08182f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +33,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  overflow-wrap: break-word;
 }
 
 .card {
@@ -75,5 +76,21 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (width < 768px) {
+  #app {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0 1em;
+  }
+
+  button {
+    padding: 0.3em 0.6em;
+    font-size: 0.8em;
   }
 }
